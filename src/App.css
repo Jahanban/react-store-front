@@ -37,12 +37,64 @@
   }
 }
 
+html {
+  font-size: 62.5%;
+}
+
 .wrapper {
-  max-width: 1280px;
+  max-width: 1290px;
   margin: 0 auto;
 
   padding-right: 10px;
   padding-left: 10px;
+}
+
+.app-header {
+  background-image: url(./Images/background-option5.jpg);
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+/* .app-header button {
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 5%;
+  cursor: pointer;
+} */
+
+.btn { 
+            padding: 15px 40px; 
+            font-size: 2rem; 
+            text-align: center; 
+            cursor: pointer; 
+            outline: none; 
+            color: #000; 
+            background-color: white; 
+            border: none; 
+            border-radius: 5px; 
+            box-shadow: 
+              7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
+        } 
+        /* Adding styles on 'active' state */ 
+          
+        .btn:active { 
+            box-shadow: 
+              7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
+            transform: translateY(4px); 
+            /* Moving button 4px to y-axis */ 
+        } 
+
+.app-title {
+position: absolute;
+top: 30%;
+left: 40%;
+/* color: #2A4A48 ; */
+color: white;
+font-size: 4rem;
 }
 
 
@@ -51,6 +103,7 @@ list-style-type: none;
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
+align-content: center;
 }
 
 .desk-data {

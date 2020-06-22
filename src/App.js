@@ -34,20 +34,29 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <h1>My storefront</h1>
-        <ul>
-          {this.state.desks.map((desk) => {
-            return (
-              <li className="desk-data" key={desk.id}>
-                <img src={desk.image} />
-                <p>{desk.title}</p>
-                <p>{desk.description}</p>
-                <p>${desk.price}</p>
-                <button>Add to cart</button>
-              </li>
-            );
-          })}
-        </ul>
+        <header className="app-header">
+          <div className="app-title">
+            <h1>Dream Desks</h1>
+            <button className="btn">Display</button>
+          </div>
+
+        </header>
+
+        <div>
+          <ul>
+            {this.state.desks.map((desk) => {
+              return (
+                <li className="desk-data" key={desk.id}>
+                  <img src={desk.image} />
+                  <p>{desk.title}</p>
+                  <p>{desk.description}</p>
+                  <p>${desk.price}</p>
+                  <button>Add to cart</button>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     )
   }
