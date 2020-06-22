@@ -1,26 +1,55 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+
+import firebase from './firebase';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      desks: [],
+    }
+  }
+
+  componentDidMount() {
+
+    const dbRef = firebase.database().ref();
+
+    dbRef.on('value', (response) => {
+      const newState = [];
+
+      const data = response.val();
+
+      for (let key in data) {
+        newState.push(data[key]);
+      }
+
+      this.setState({
+        desks: newState
+      });
+
+    });
+  }
+
+  render() {
+    return (
+      <div className='App'>
+        <h1>My storefront</h1>
+        <ul>
+          {this.state.desks.map((desk) => {
+            return (
+              <li className="desk-data" key={desk.id}>
+                <img src={desk.image} />
+                <p>{desk.title}</p>
+                <p>{desk.description}</p>
+                <p>$ {desk.price}</p>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    )
+  }
 }
 
 export default App;
