@@ -42,7 +42,8 @@ class App extends Component {
                 <img src={desk.image} />
                 <p>{desk.title}</p>
                 <p>{desk.description}</p>
-                <p>$ {desk.price}</p>
+                <p>${desk.price}</p>
+                <button>Add to cart</button>
               </li>
             );
           })}
