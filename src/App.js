@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
+
+// Firebase component
 import firebase from './firebase';
+
+// Component for 'Add to cart' and 'Cart Icon'
 import Button from './Addtocart';
 import Icon from './Carticon';
 
+// CSS for the 'App' component
 import './App.css';
 
+//Set initial state, mounting and commit phase
 class App extends Component {
   constructor(props) {
     super(props);
@@ -13,6 +19,7 @@ class App extends Component {
       count: 0,
     }
   }
+
   componentDidMount() {
     const dbRef = firebase.database().ref();
     dbRef.on('value', (response) => {
@@ -27,12 +34,14 @@ class App extends Component {
     });
   }
 
+  // count update function
   handleClick = () => {
     this.setState({
       count: this.state.count + 1,
     })
   }
 
+  // Data to be displayed on page including header, cart icon and counter, .map to iterate over the Desks array and footer.
   render() {
     return (
       <div className='App'>
@@ -55,7 +64,7 @@ class App extends Component {
             {this.state.desks.map((desk) => {
               return (
                 <li className="desk-data" key={desk.id}>
-                  <img src={desk.image} />
+                  <img src={desk.image} alt={'image of a desk'} />
                   <p>{desk.title}</p>
                   <p>{desk.description}</p>
                   <p>${desk.price}</p>
