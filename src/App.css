@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -39,14 +39,6 @@
 
 html {
   font-size: 62.5%;
-}
-
-.wrapper {
-  max-width: 1290px;
-  margin: 0 auto;
-
-  padding-right: 10px;
-  padding-left: 10px;
 }
 
 .app-header {
@@ -79,6 +71,8 @@ html {
             box-shadow: 
               7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
               text-decoration: none;
+              font-family: Roboto;
+  font-weight: regular;
         } 
         /* Adding styles on 'active' state */ 
           
@@ -93,9 +87,37 @@ html {
 position: absolute;
 top: 30%;
 left: 40%;
-/* color: #2A4A48 ; */
 color: white;
-font-size: 4rem;
+
+}
+
+.app-title h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 8rem;
+}
+/* 
+.app-title a {
+  
+  font-size: 2.5rem;
+} */
+
+/* .main {
+max-width: 50%;
+} */
+
+.wrapper {
+  max-width: 1000px;
+  /* margin: 0 auto; */
+
+  padding-left: 0px;
+padding-right: 0px;
+margin-left: 10px;
+margin-right: 10px;
+
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 2rem;
 }
 
 
@@ -105,33 +127,37 @@ display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
 align-content: center;
+/* flex-grow: 1; */
 }
 
 .desk-data {
   /* background-color: #E0FFFF; */
   border-radius: 5%;
-  width: 20%;
+  width: 40%;
   margin: 10px 10px;
 }
 
 .desk-data img {
   margin-top: 50px;
   width: 100%;
-  height: 60%;
-  overflow: hidden;
+  /* height: auto; */
+  overflow: hidden; 
+  /* width:200px; */
+  height: 200px;
   border-radius: 5px;
+  /* background-size: contain; */
+  object-fit: scale-down;
 }
 
-
-
-/* .cart-disp{
-  background-color: grey;
-  width:25%;
-  margin: 2% auto;
-  border-radius: 5px;
-} */
+/* .cart-disp {
+  position: fixed;
+    right: 50%;
+    top: 95%;
+    left: 0;
+  } */
 
 .cart-icon {
+  /* margin-right: 78%; */
   margin-top: 10px;
   padding: 10px 5px;
   /* left: -30; */
@@ -163,4 +189,7 @@ padding: 10px 10px;
 margin-bottom: 0;
 margin-top: 10px;
 color: white;
+font-family: Roboto;
+  font-weight: regular;
+  font-size: 1.5rem;
 }

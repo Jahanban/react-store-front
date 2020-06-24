@@ -47,13 +47,13 @@ class App extends Component {
           </div>
 
         </header>
-        <section className="cart-disp">
+        <section id="cart" className="cart-disp">
           <Icon />
           <p>{this.state.count}</p>
 
         </section>
 
-        <div id="main">
+        <div id="main" className="wrapper">
           <ul>
             {this.state.desks.map((desk) => {
               return (
@@ -67,10 +67,10 @@ class App extends Component {
               );
             })}
           </ul>
-          <footer>
-            <p>This is a footer</p>
-          </footer>
         </div>
+        <footer>
+          <p>Dream Desk Store Front ©2020</p>
+        </footer>
       </div>
     )
   }
