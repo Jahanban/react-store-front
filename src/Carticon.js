@@ -1,4 +1,4 @@
-// cart icon
+// cart icon component
 
 import React, { Component } from 'react';
 

@@ -1,4 +1,4 @@
-// Add to cart button
+// Add to cart component - button
 
 import React, { Component } from 'react';
 

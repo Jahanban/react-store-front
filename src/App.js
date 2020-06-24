@@ -48,7 +48,7 @@ class App extends Component {
         <header className="app-header">
           <div className="app-title">
             <h1>Dream Desks</h1>
-            <a href="#main" className="btn">Display Catalog</a>
+            <a href="#main" className="btn" aria-label="Click to display items catalog">Display Catalog</a>
           </div>
         </header>
 
@@ -69,7 +69,7 @@ class App extends Component {
                   <p>{desk.description}</p>
                   <p>${desk.price}</p>
                   <Button handleClick={this.handleClick} count={this.state.count} />
-                  <a className="go-cart" href="#cart">Go to cart</a>
+                  <a className="go-cart" href="#cart" aria-label="Click on link to scroll up to cart and view the count of items">Go to cart</a>
                 </li>
               );
             })}
