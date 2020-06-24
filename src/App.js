@@ -1,35 +1,30 @@
 import React, { Component } from 'react';
-
 import firebase from './firebase';
+import Button from './Addtocart';
 import './App.css';
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       desks: [],
     }
   }
-
   componentDidMount() {
-
     const dbRef = firebase.database().ref();
-
     dbRef.on('value', (response) => {
       const newState = [];
-
       const data = response.val();
-
       for (let key in data) {
         newState.push(data[key]);
       }
-
       this.setState({
-        desks: newState
+        desks: newState,
       });
-
     });
   }
+
+
 
   render() {
     return (
@@ -37,12 +32,13 @@ class App extends Component {
         <header className="app-header">
           <div className="app-title">
             <h1>Dream Desks</h1>
-            <button className="btn">Display</button>
+            <a href="#main" className="btn">Display Catalog</a>
           </div>
 
         </header>
 
-        <div>
+
+        <div id="main">
           <ul>
             {this.state.desks.map((desk) => {
               return (
@@ -51,15 +47,17 @@ class App extends Component {
                   <p>{desk.title}</p>
                   <p>{desk.description}</p>
                   <p>${desk.price}</p>
-                  <button>Add to cart</button>
+                  <Button />
                 </li>
               );
             })}
           </ul>
+          <footer>
+            <p>This is a footer</p>
+          </footer>
         </div>
       </div>
     )
   }
 }
-
 export default App;
