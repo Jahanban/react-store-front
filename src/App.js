@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import firebase from './firebase';
 import Button from './Addtocart';
 import Icon from './Carticon';
+
 import './App.css';
 
 class App extends Component {
@@ -27,14 +28,9 @@ class App extends Component {
   }
 
   handleClick = () => {
-    // alert("Item added to the shopping cart!");
-    console.log(this.state.count)
     this.setState({
-
       count: this.state.count + 1,
-
     })
-
   }
 
   render() {
@@ -45,12 +41,13 @@ class App extends Component {
             <h1>Dream Desks</h1>
             <a href="#main" className="btn">Display Catalog</a>
           </div>
-
         </header>
-        <section id="cart" className="cart-disp">
-          <Icon />
-          <p>{this.state.count}</p>
 
+        <section>
+          <div id="cart" className="cart-disp">
+            <Icon />
+            <p>{this.state.count}</p>
+          </div>
         </section>
 
         <div id="main" className="wrapper">
@@ -63,14 +60,17 @@ class App extends Component {
                   <p>{desk.description}</p>
                   <p>${desk.price}</p>
                   <Button handleClick={this.handleClick} count={this.state.count} />
+                  <a className="go-cart" href="#cart">Go to cart</a>
                 </li>
               );
             })}
           </ul>
         </div>
+
         <footer>
           <p>Dream Desk Store Front ©2020</p>
         </footer>
+
       </div>
     )
   }

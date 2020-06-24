@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 
+
 class Button extends Component {
 
 
@@ -10,7 +11,7 @@ class Button extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.props.handleClick}>Add to cart</button>
+                <button className="add-cart" onClick={this.props.handleClick}>Add to cart</button>
             </div>
         )
     }
