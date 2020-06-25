@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jahanban-tahir-project-five/static/css/main.36e5db1f.chunk.css",
+    "main.css": "/jahanban-tahir-project-five/static/css/main.4479bef1.chunk.css",
     "main.js": "/jahanban-tahir-project-five/static/js/main.43605e2c.chunk.js",
     "main.js.map": "/jahanban-tahir-project-five/static/js/main.43605e2c.chunk.js.map",
     "runtime-main.js": "/jahanban-tahir-project-five/static/js/runtime-main.9df813fb.js",
@@ -8,9 +8,9 @@
     "static/js/2.4374e0ec.chunk.js": "/jahanban-tahir-project-five/static/js/2.4374e0ec.chunk.js",
     "static/js/2.4374e0ec.chunk.js.map": "/jahanban-tahir-project-five/static/js/2.4374e0ec.chunk.js.map",
     "index.html": "/jahanban-tahir-project-five/index.html",
-    "precache-manifest.123b180a48ab8b099f54a8a19d30bda0.js": "/jahanban-tahir-project-five/precache-manifest.123b180a48ab8b099f54a8a19d30bda0.js",
+    "precache-manifest.44c6323eaf429b5cf82768cbbd4e3cdb.js": "/jahanban-tahir-project-five/precache-manifest.44c6323eaf429b5cf82768cbbd4e3cdb.js",
     "service-worker.js": "/jahanban-tahir-project-five/service-worker.js",
-    "static/css/main.36e5db1f.chunk.css.map": "/jahanban-tahir-project-five/static/css/main.36e5db1f.chunk.css.map",
+    "static/css/main.4479bef1.chunk.css.map": "/jahanban-tahir-project-five/static/css/main.4479bef1.chunk.css.map",
     "static/js/2.4374e0ec.chunk.js.LICENSE.txt": "/jahanban-tahir-project-five/static/js/2.4374e0ec.chunk.js.LICENSE.txt",
     "static/media/App.css": "/jahanban-tahir-project-five/static/media/background-option5.4c81c618.jpg",
     "static/media/cart.png": "/jahanban-tahir-project-five/static/media/cart.cc60b145.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.9df813fb.js",
     "static/js/2.4374e0ec.chunk.js",
-    "static/css/main.36e5db1f.chunk.css",
+    "static/css/main.4479bef1.chunk.css",
     "static/js/main.43605e2c.chunk.js"
   ]
 }

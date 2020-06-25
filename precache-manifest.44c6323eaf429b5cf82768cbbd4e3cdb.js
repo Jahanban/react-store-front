@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3779095bcfb3e306ade76ee2a302f796",
+    "revision": "d2f8eabe9f3eba47404b7ed7c6bae06b",
     "url": "/jahanban-tahir-project-five/index.html"
   },
   {
-    "revision": "ebe64a4b6f12ae262a43",
-    "url": "/jahanban-tahir-project-five/static/css/main.36e5db1f.chunk.css"
+    "revision": "09bb5dbd9d21ee55f70b",
+    "url": "/jahanban-tahir-project-five/static/css/main.4479bef1.chunk.css"
   },
   {
     "revision": "6ac07a619db4d3d1670f",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jahanban-tahir-project-five/static/js/2.4374e0ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ebe64a4b6f12ae262a43",
+    "revision": "09bb5dbd9d21ee55f70b",
     "url": "/jahanban-tahir-project-five/static/js/main.43605e2c.chunk.js"
   },
   {
