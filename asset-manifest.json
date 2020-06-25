@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Jahanban/jahanban-tahir-project-five.git/static/css/main.38430aca.chunk.css",
-    "main.js": "/Jahanban/jahanban-tahir-project-five.git/static/js/main.4d17f94b.chunk.js",
-    "main.js.map": "/Jahanban/jahanban-tahir-project-five.git/static/js/main.4d17f94b.chunk.js.map",
-    "runtime-main.js": "/Jahanban/jahanban-tahir-project-five.git/static/js/runtime-main.f55bddd9.js",
-    "runtime-main.js.map": "/Jahanban/jahanban-tahir-project-five.git/static/js/runtime-main.f55bddd9.js.map",
-    "static/js/2.eb0c18f3.chunk.js": "/Jahanban/jahanban-tahir-project-five.git/static/js/2.eb0c18f3.chunk.js",
-    "static/js/2.eb0c18f3.chunk.js.map": "/Jahanban/jahanban-tahir-project-five.git/static/js/2.eb0c18f3.chunk.js.map",
-    "index.html": "/Jahanban/jahanban-tahir-project-five.git/index.html",
-    "precache-manifest.35818522bdae05abebdd3bcd54a5a32f.js": "/Jahanban/jahanban-tahir-project-five.git/precache-manifest.35818522bdae05abebdd3bcd54a5a32f.js",
-    "service-worker.js": "/Jahanban/jahanban-tahir-project-five.git/service-worker.js",
-    "static/css/main.38430aca.chunk.css.map": "/Jahanban/jahanban-tahir-project-five.git/static/css/main.38430aca.chunk.css.map",
-    "static/js/2.eb0c18f3.chunk.js.LICENSE.txt": "/Jahanban/jahanban-tahir-project-five.git/static/js/2.eb0c18f3.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Jahanban/jahanban-tahir-project-five.git/static/media/background-option5.4c81c618.jpg",
-    "static/media/cart.png": "/Jahanban/jahanban-tahir-project-five.git/static/media/cart.cc60b145.png"
+    "main.css": "/jahanban-tahir-project-five/static/css/main.f9bf3329.chunk.css",
+    "main.js": "/jahanban-tahir-project-five/static/js/main.43605e2c.chunk.js",
+    "main.js.map": "/jahanban-tahir-project-five/static/js/main.43605e2c.chunk.js.map",
+    "runtime-main.js": "/jahanban-tahir-project-five/static/js/runtime-main.9df813fb.js",
+    "runtime-main.js.map": "/jahanban-tahir-project-five/static/js/runtime-main.9df813fb.js.map",
+    "static/js/2.4374e0ec.chunk.js": "/jahanban-tahir-project-five/static/js/2.4374e0ec.chunk.js",
+    "static/js/2.4374e0ec.chunk.js.map": "/jahanban-tahir-project-five/static/js/2.4374e0ec.chunk.js.map",
+    "index.html": "/jahanban-tahir-project-five/index.html",
+    "precache-manifest.68b772f2ded2a31a36d457fa2922f297.js": "/jahanban-tahir-project-five/precache-manifest.68b772f2ded2a31a36d457fa2922f297.js",
+    "service-worker.js": "/jahanban-tahir-project-five/service-worker.js",
+    "static/css/main.f9bf3329.chunk.css.map": "/jahanban-tahir-project-five/static/css/main.f9bf3329.chunk.css.map",
+    "static/js/2.4374e0ec.chunk.js.LICENSE.txt": "/jahanban-tahir-project-five/static/js/2.4374e0ec.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/jahanban-tahir-project-five/static/media/background-option5.4c81c618.jpg",
+    "static/media/cart.png": "/jahanban-tahir-project-five/static/media/cart.cc60b145.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f55bddd9.js",
-    "static/js/2.eb0c18f3.chunk.js",
-    "static/css/main.38430aca.chunk.css",
-    "static/js/main.4d17f94b.chunk.js"
+    "static/js/runtime-main.9df813fb.js",
+    "static/js/2.4374e0ec.chunk.js",
+    "static/css/main.f9bf3329.chunk.css",
+    "static/js/main.43605e2c.chunk.js"
   ]
 }
