@@ -64,10 +64,6 @@ html {
 .wrapper {
   margin: 0 auto;
   max-width: 1000px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 10px;
-  margin-right: 10px;
   font-family: Roboto;
   font-weight: regular;
   font-size: 2rem;
@@ -86,6 +82,7 @@ html {
   border-radius: 5%;
   width: 40%;
   margin: 10px 10px;
+  background-color: #DCDCDC;
 }
 
 .desk-data img {
@@ -95,6 +92,8 @@ html {
   height: 200px;
   border-radius: 5px;
   object-fit: scale-down;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Styling for cart */
