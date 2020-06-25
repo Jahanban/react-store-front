@@ -81,7 +81,7 @@ html {
 .desk-data {
   border-radius: 5%;
   width: 40%;
-  margin: 10px 10px;
+  margin: 30px 10px;
   background-color: #DCDCDC;
 }
 
@@ -94,6 +94,12 @@ html {
   object-fit: scale-down;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.desk-data p:nth-child(4){
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 /* Styling for cart */
