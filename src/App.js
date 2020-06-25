@@ -64,7 +64,7 @@ class App extends Component {
             {this.state.desks.map((desk) => {
               return (
                 <li className="desk-data" key={desk.id}>
-                  <img src={desk.image} alt={'image of a desk'} />
+                  <img src={desk.image} alt={'A desk'} />
                   <p>{desk.title}</p>
                   <p>{desk.description}</p>
                   <p>${desk.price}</p>
